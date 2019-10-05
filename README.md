@@ -14,3 +14,7 @@ Câu 2:
   > docker build -t tomcat_image .
   + Step 2: create container with command
   > docker run -d --network bridge-test -p 8080:8080 tomcat_image
+
+###
+Câu 3:
+https://jenkins.learn.akawork.io/job/ThaoND14-DevOpsFinal
