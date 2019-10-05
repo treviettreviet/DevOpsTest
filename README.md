@@ -11,6 +11,7 @@ Câu 2:
 - Command tạo network: >docker network create --driver=bridge --subnet=10.10.20.0/24 bridge-test 
 - Command tạo container: 
   + Step 1: create image from Dockerfile 
+  > cd /DevOpsTest
   > docker build -t tomcat_image .
   + Step 2: create container with command
   > docker run -d --network bridge-test -p 8080:8080 tomcat_image
